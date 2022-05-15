@@ -39,7 +39,7 @@ img {
 
 .first-card {
  background-color: var(--card-background-bright-orange);
- width: min(90%, 450px);
+ width: min(90%, 350px);
  height: 28em;
  margin: 2em auto 0;
  display: flex;
@@ -66,7 +66,7 @@ img {
 
 .second-card {
  background-color: var(--card-background-dark-cyan);
- width: min(90%, 450px);
+ width: min(90%, 350px);
  height: 28em;
  margin: 0 auto;
  display: flex;
@@ -92,7 +92,7 @@ img {
 
 .third-card {
  background-color: var(--card-background-very-dark-cyan);
- width: min(90%, 450px);
+ width: min(90%, 350px);
  height: 28em;
  margin: 0 auto 2em;
  display: flex;
@@ -130,5 +130,13 @@ img {
  .second-card,
  .third-card {
   margin: 0;
+  height: 34em;
+  gap: 2.1em;
+ }
+
+ .btn,
+ .btn2,
+ .btn3 {
+  margin-top: 5em;
  }
 }
